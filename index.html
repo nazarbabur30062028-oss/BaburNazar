@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна</title>
+    <style>
+        body {
+            font-family: 'Arial',sans-serif ;
+            color: #333;
+            background-image: url('ратм.webp'); 
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9); 
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-color: black;
+            border: 2px solid black;
+        
+        }
+        h1 {
+            color: Black; 
+            text-align: center;
+            border-bottom: 2px solid green; 
+            padding-bottom: 10px;
+        }
+        h2 { 
+            text-align: center;
+            color: black; 
+        }
+        .info-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            gap: 15px;
+        }
+        .info-list li {
+            background-color: green;
+            border: 1px solid black;
+            padding: 15px;
+            border-radius: 5px;
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        .info-list a {
+            text-decoration: none;
+            background-color: green;
+            color: black;
+            font-weight: bold;
+            font-size: 1.2em;
+            display: block;
+            transition: color 0.3s;
+        }
+
+        .info-list a:hover {
+            color: #008C45;
+        }
+        .audio-player {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>
+            Вітаю вас на моїй сторінці!
+        </h1>
+        <p>
+            Надаю якісні та швидкі послуги з обслуговування,збірки,ремонту ПК.Допоможу  вирішити саме вашу проблему! Якщо зацікавило,можете залишити заявку прямо тут,або написати нам в соц мережі.
+        </p>
+        <h2>Додаткова інформація:</h2>
+        <ul class="info-list">
+            <li>
+                <a href="form-conect.html">
+                    Зворотній зв'язок
+                </a>
+            </li>
+            <li>
+                <a href="portfolio.html">
+                    Портфоліо
+                </a>
+            </li>
+            <li>
+                <a href="rezume.html">
+                Резюме
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    Контакти
+                </a>
+            </li>
+        </ul>
+        <p style="margin-top: 30px; text-align: center; color: #666;">
+        </p>
+        <div class="audio-player">
+            <h2>Музика</h2>
+            <audio controls loop autoplay>
+                <source src="the_matrix_13 Wake Up.mp3" type="audio/mpeg"> 
+            </audio>
+            <p style="font-size: 0.8em; color: #666;"></p>
+        </div>
+    </div>
+</body>
+</html>
